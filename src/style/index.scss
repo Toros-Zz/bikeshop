@@ -1,0 +1,40 @@
+.header {
+  padding: 10px;
+  border-bottom: 1px solid red;
+  background-color: rgba(255, 255, 255, 0.808);
+
+  position: sticky;
+  top: 0;
+}
+
+.nav {
+  &__list {
+    display: flex;
+  }
+  
+  &__item {
+    margin-right: 10px;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+
+    &:first-of-type {
+      flex-grow: 1;
+    }
+  }
+
+  &__logo {
+    box-sizing: content-box;
+    height: 35px;
+    padding: 5px;
+  }
+}
+
+.content {
+  height: 120vh;
+  background-color: green;
+}
+
+.home {
+}

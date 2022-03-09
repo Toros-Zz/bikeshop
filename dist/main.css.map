@@ -1,0 +1,1 @@
+{"version":3,"file":"main.css","mappings":"AAAA,QACE,gC","sources":["webpack://bike_shop/./src/style/index.scss"],"sourcesContent":[".header {\r\n  border-bottom: 1px solid lightgrey;\r\n}"],"names":[],"sourceRoot":""}
