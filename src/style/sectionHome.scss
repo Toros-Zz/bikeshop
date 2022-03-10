@@ -1,0 +1,49 @@
+.home {
+  height: 500px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUvKty2XGkeNli9YwGjtc0wctsUeZ7S3xoAAg-18k375MnFhZobgJoP9xzcoI6RrrIvVg&usqp=CAU);
+  background-position: center;
+
+  &__cover {
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s;
+    background-color: rgba(0, 0, 0, 0.199);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.582);
+    }
+  }
+
+  &__title {
+    color: white;
+    font-size: 80px;
+    text-shadow: 1px 1px 2px red;
+  }
+
+  &__form {
+    display: flex;
+  }
+
+  &__input {
+    height: 40px;
+    padding: 5px;
+    border: 0;
+    outline: none
+
+  }
+
+  &__button {
+    background-color: #fff;
+    border: 0;
+    border-left: 1px solid silver;
+  
+    &:active {
+      background-color: silver;
+    }
+  }
+}

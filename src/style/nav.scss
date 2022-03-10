@@ -1,0 +1,23 @@
+.nav {
+  &__list {
+    display: flex;
+  }
+  
+  &__item {
+    margin-right: 10px;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+
+    &:first-of-type {
+      flex-grow: 1;
+    }
+  }
+
+  &__logo {
+    box-sizing: content-box;
+    height: 35px;
+    padding: 5px;
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "name": "bike_shop",
+  "name": "movie_shop",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.17.5",
+    "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.16.11",
     "babel-loader": "^8.2.3",
     "bulma": "^0.9.3"
