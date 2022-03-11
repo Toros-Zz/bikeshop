@@ -1,6 +1,7 @@
 import './style/index.scss';
 import { header } from './components/header';
 import { sectionHome } from './components/sectionHome';
+import { sectionShop } from './components/sectionShop';
 import { movieList } from './components/movieList';
 import { getPage } from './components/nav';
 
@@ -16,9 +17,13 @@ export function upDate() {
     case 'shop':
       body.removeChild(sectionHome);
       body.removeChild(movieList);
+      body.appendChild(sectionShop);
       break;
-      case 'home':
-      default:
+    case 'home':
+    default:
+      if (document.getElementById('sectionShop')){
+        body.removeChild(sectionShop);
+      }
       body.appendChild(sectionHome);
       body.appendChild(movieList);
   }

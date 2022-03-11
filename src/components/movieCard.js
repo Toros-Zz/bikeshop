@@ -10,8 +10,8 @@ export const newCard = (title, description, img) => {
 
   cardTitle.textContent = title;
   
-  if (description.length > 250) {
-    newDescription = `${description.slice(0, 250)}...`
+  if (description.length > 210) {
+    newDescription = `${description.slice(0, 210)}...`
   }
 
   cardDescription.textContent = newDescription;
